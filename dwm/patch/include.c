@@ -1,5 +1,4 @@
 /* Bar functionality */
-#include "bar_indicators.c"
 #include "bar_tagicons.c"
 #include "bar.c"
 

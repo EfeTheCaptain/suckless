@@ -34,7 +34,6 @@ draw_wintitle(Bar *bar, BarArg *a)
 
 	drw_text(drw, tx, a->y, tw, a->h, 0, c->name, 0, False);
 
-	drawstateindicator(m, c, 1, x, a->y, w, a->h, 0, 0, c->isfixed);
 	return 1;
 }
 

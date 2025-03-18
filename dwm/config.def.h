@@ -29,9 +29,6 @@ static const unsigned int ulinevoffset = 1;     /* how far above the bottom of t
 static const int ulineall = 0;                  /* 1 to show underline on all tags, 0 for just the active ones */
 
 /* Indicators: see patch/bar_indicators.h for options */
-static int tagindicatortype              = INDICATOR_TOP_LEFT_SQUARE;
-static int tiledindicatortype            = INDICATOR_NONE;
-static int floatindicatortype            = INDICATOR_TOP_LEFT_SQUARE;
 static const char *fonts[]               = { "DroidSansMNerdFont:size=9" };
 static const char dmenufont[]            = "DroidSansMNerdFont:size=9";
 
