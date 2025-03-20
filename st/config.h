@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DroidSansMNerdFont:pixelsize=17:antialias=true:autohint=true";
+static char *font = "UbuntuMonoNerdFont:pixelsize=19:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 /*	"Inconsolata for Powerline:pixelsize=13:antialias=true:autohint=true", */
-	"Hack Nerd Font Mono:pixelsize=16:antialias=true:autohint=true", 
+	"ArimoNerdFont:pixelsize=16:antialias=true:autohint=true", 
 };
 
 static int borderpx = 2;

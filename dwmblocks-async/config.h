@@ -24,8 +24,9 @@
 	X("", "/home/efe/.local/bin/cpu-usage.sh", 2, 16)\
 	X("", "/home/efe/.local/bin/volume.sh", 0, 15)\
 	X("", "/home/efe/.local/bin/battery.sh", 10, 14)\
-	X("", "/home/efe/.local/bin/weather.sh", 3600, 12)\
-	X("", "/home/efe/.local/bin/date.sh", 3600, 13)\
+	X("", "/home/efe/.local/bin/weather2.sh", 7200, 12)\
+	X("", "/home/efe/.local/bin/date.sh", 7200, 13)\
 	X("", "/home/efe/.local/bin/time.sh", 60, 11)\
-	X("", "/home/efe/.local/bin/wifi.sh", 30, 10)	 
+	X("", "/home/efe/.local/bin/wifi.sh", 30, 10)\
+	X("", "/home/efe/.local/bin/prayertimes.sh", 21600, 20)	 
 #endif  // CONFIG_H
