@@ -198,6 +198,7 @@ typedef struct {
 	XSetWindowAttributes attrs;
 	int scr;
 	int isfixed; /* is fixed geometry? */
+	int depth; /* bit depth */
 	int l, t; /* left and top offset */
 	int gm; /* geometry mask */
 } XWindow;
@@ -323,6 +324,8 @@ extern unsigned int defaultbg;
 extern unsigned int defaultcs;
 
 extern const int boxdraw, boxdraw_bold, boxdraw_braille;
+extern float alpha;
+extern float alphaUnfocused;
 
 extern DC dc;
 extern XWindow xw;
