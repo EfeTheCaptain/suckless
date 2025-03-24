@@ -1,49 +1,49 @@
 // Updated color definitions using a dark green, brown, and yellow color scheme
 
-static char c000000[]                    = "#000000"; // placeholder value
+static char c000000[]                    = "#000000"; 
 
 // Normal colors
-static char normfgcolor[]                = "#d5c39a"; // Light brown/yellow for normal text
-static char normbgcolor[]                = "#2b2b2b"; // Dark brown background
-static char normbordercolor[]            = "#3e3e3e"; // Slightly lighter brown for borders
-static char normfloatcolor[]             = "#b69b6a"; // Light tan/brown
+static char normfgcolor[]                = "#9f972f"; 
+static char normbgcolor[]                = "#080f0e"; 
+static char normbordercolor[]            = "#5c6a52"; 
+static char normfloatcolor[]             = "#9f972f"; 
 
 // Selected colors
-static char selfgcolor[]                 = "#fbe3bb"; // Light yellow for selected text
-static char selbgcolor[]                 = "#005f00"; // Dark green background for selection
-static char selbordercolor[]             = "#005f00"; // Dark green border for selection
-static char selfloatcolor[]              = "#005f00"; // Same dark green for float windows
+static char selfgcolor[]                 = "#9dc5c1"; 
+static char selbgcolor[]                 = "#1e4a52"; 
+static char selbordercolor[]             = "#9dc5c1"; 
+static char selfloatcolor[]              = "#080f0e"; 
 
 // Title colors
-static char titlenormfgcolor[]           = "#d5c39a"; // Light brown/yellow for normal title text
-static char titlenormbgcolor[]           = "#2b2b2b"; // Dark brown background for title
-static char titlenormbordercolor[]       = "#3e3e3e"; // Slightly lighter brown for title borders
-static char titlenormfloatcolor[]        = "#b69b6a"; // Light tan/brown for title float
+static char titlenormfgcolor[]           = "#1e4a52"; 
+static char titlenormbgcolor[]           = "#080f0e"; 
+static char titlenormbordercolor[]       = "#4b6a2b"; 
+static char titlenormfloatcolor[]        = "#9f972f"; 
 
-static char titleselfgcolor[]            = "#fbe3bb"; // Light yellow for selected title text
-static char titleselbgcolor[]            = "#005f00"; // Dark green background for selected title
-static char titleselbordercolor[]        = "#005f00"; // Dark green border for selected title
-static char titleselfloatcolor[]         = "#005f00"; // Same dark green for selected title float
+static char titleselfgcolor[]            = "#9dc5c1"; 
+static char titleselbgcolor[]            = "#080f0e"; 
+static char titleselbordercolor[]        = "#678b3e"; 
+static char titleselfloatcolor[]         = "#9f972f"; 
 
 // Tag colors
-static char tagsnormfgcolor[]            = "#d5c39a"; // Light brown/yellow for normal tags
-static char tagsnormbgcolor[]            = "#2b2b2b"; // Dark brown background for tags
-static char tagsnormbordercolor[]        = "#3e3e3e"; // Slightly lighter brown for tag borders
-static char tagsnormfloatcolor[]         = "#b69b6a"; // Light tan/brown for tag float
+static char tagsnormfgcolor[]            = "#a19c68"; 
+static char tagsnormbgcolor[]            = "#080f0e";
+static char tagsnormbordercolor[]        = "#263d38"; 
+static char tagsnormfloatcolor[]         = "#396453"; 
 
-static char tagsselfgcolor[]             = "#fbe3bb"; // Light yellow for selected tag text
-static char tagsselbgcolor[]             = "#005f00"; // Dark green for selected tag background
-static char tagsselbordercolor[]         = "#005f00"; // Dark green border for selected tags
-static char tagsselfloatcolor[]          = "#005f00"; // Dark green for selected tag float
+static char tagsselfgcolor[]             = "#3a7984"; 
+static char tagsselbgcolor[]             = "#081311"; 
+static char tagsselbordercolor[]         = "#9dc5c1"; 
+static char tagsselfloatcolor[]          = "#c8c556"; 
 
 // Hidden colors
-static char hidnormfgcolor[]             = "#d5c39a"; // Light brown/yellow for normal hidden text
-static char hidselfgcolor[]              = "#fbe3bb"; // Light yellow for selected hidden text
-static char hidnormbgcolor[]             = "#2b2b2b"; // Dark brown background for hidden
-static char hidselbgcolor[]              = "#2b2b2b"; // Dark brown for selected hidden
+static char hidnormfgcolor[]             = "#a19c68"; 
+static char hidselfgcolor[]              = "#5c6a52"; 
+static char hidnormbgcolor[]             = "#080f0e"; 
+static char hidselbgcolor[]              = "#080f0e"; 
 
 // Urgent colors
-static char urgfgcolor[]                 = "#d5c39a"; // Light brown/yellow for normal urgent text
-static char urgbgcolor[]                 = "#2b2b2b"; // Dark brown background for urgent
-static char urgbordercolor[]             = "#ffcc00"; // Bright yellow for urgent borders
-static char urgfloatcolor[]              = "#b69b6a"; // Light tan/brown for urgent float
+static char urgfgcolor[]                 = "#986735"; 
+static char urgbgcolor[]                 = "#7a4c30";
+static char urgbordercolor[]             = "#5e3b27";
+static char urgfloatcolor[]              = "#b69b6a";
