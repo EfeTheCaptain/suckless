@@ -5,13 +5,13 @@ static char c000000[]                    = "#000000";
 // Normal colors
 static char normfgcolor[]                = "#9f972f"; 
 static char normbgcolor[]                = "#080f0e"; 
-static char normbordercolor[]            = "#5c6a52"; 
+static char normbordercolor[]            = "#61774a"; 
 static char normfloatcolor[]             = "#9f972f"; 
 
 // Selected colors
 static char selfgcolor[]                 = "#9dc5c1"; 
 static char selbgcolor[]                 = "#1e4a52"; 
-static char selbordercolor[]             = "#9dc5c1"; 
+static char selbordercolor[]             = "#758639"; 
 static char selfloatcolor[]              = "#080f0e"; 
 
 // Title colors
