@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "UbuntuMonoNerdFont:pixelsize=19:antialias=true:autohint=true";
+static char *font = "UbuntuMonoNerdFont:weight=ultrabold:pixelsize=21:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
         "ArimoNerdFont:pixelsize=16:antialias=true:autohint=true",
@@ -91,7 +91,7 @@ const int boxdraw_braille = 0;
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
  * it
  */
-static int bellvolume = 0;
+static int bellvolume = 2;
 
 /* default TERM value */
 char *termname = "st-256color";
@@ -114,8 +114,8 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.6;
-float alphaUnfocused = 0.8;
+float alpha = 0.8;
+float alphaUnfocused = 0.9;
 
 /*
  * drag and drop escape characters
@@ -134,10 +134,10 @@ static const char *colorname[] = {
 	"blue2",
 	"magenta3",
 	"cyan3",
-	"gray90",
+	"#262524",
 
 	/* 8 bright colors */
-	"gray50",
+	"#403e3d",
 	"red",
 	"green",
 	"yellow",
@@ -149,11 +149,12 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
+	"#c3d9a3", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
-      "#000000", /* 258 -> bg */
-      "#e5e5e5", /* 259 -> fg */
-	"#0d0b07", /* 260 -> alpbg*/
+      "#0d0c0c", /* 258 -> bg */
+      "#a6a29f", /* 259 -> fg */
+	   "#262524",
+	   "#191918",
 };
 
 
@@ -162,7 +163,7 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  */
 unsigned int defaultbg = 258;
-unsigned int bg = 260, bgUnfocused = 16;
+unsigned int bg = 260, bgUnfocused = 261;
 unsigned int defaultfg = 259;
 unsigned int defaultcs = 256;
 unsigned int defaultrcs = 257;
